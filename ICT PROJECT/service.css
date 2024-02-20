@@ -1,0 +1,105 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+	
+
+}
+nav{
+	width: 100%;
+	position:  absolute;
+	top: 0;
+	left: 0px;
+	padding: 10px 8%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: black
+	
+}
+
+nav.logo{
+	width: 20px;
+	height: 10px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+	border: 100px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 17px;
+
+}
+.container
+{
+	width: 100%;
+	height: 100vh;
+	padding: 0 8%;
+}
+.container h1
+{
+	text-align: center;
+	padding-top: 10%px;
+	margin-bottom: 60px;
+	font-weight: 600;
+	position: relative;
+}
+.container h1::after
+{
+	content: '';
+	background-color: #white;
+	width: 100px;
+	height: 5px;
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.row
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 30px;
+}
+.service
+{
+	text-align: center;
+	padding: 25px 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	cursor: pointer;
+	background: transparent;
+	transition: transform 0.5s, background 0.5s; 
+}
+.service p{
+
+	color: white;
+}
+.service i 
+{
+	font-size: 40px;
+	margin-bottom: 10px;
+	color: #white;
+}
+.service h2
+{
+	font-weight: 600;
+	margin-bottom: 8px;
+	color: white;
+}
+.service:hover
+{
+	background: #white;
+	color: #fff;
+	transform: scale(1.05);
+}
+.service:hover i 
+{
+	color: #fff;
+}

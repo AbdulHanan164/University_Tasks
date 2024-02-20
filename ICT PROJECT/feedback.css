@@ -1,0 +1,136 @@
+ 
+ nav{
+	width: 1272px;
+	position:  absolute;
+	top: 0;
+	left: 0px;
+	padding: 10px 8%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: black
+	
+}
+
+nav.logo{
+	width: 20px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+	border: 100px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+
+}
+
+legend {
+                display: block;
+                padding-left: 10px;
+                padding-right: 10px;
+                border: 6px solid black;
+                background-color:darkred;
+                color:white;
+
+            }
+
+
+ body {
+      min-height: 100%;
+      }
+      body, div, form, input, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      color: white;
+      line-height: 22px;
+      }
+      h1 {
+      font-weight: 400;
+      }
+      h4 {
+      margin: 22px 0 4px;
+      color: white;
+      }
+      .testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 3px;
+      }
+      
+      form {
+      width: 100%;
+      padding: 20px;
+      background: darkred;
+      box-shadow: 0 2px 5px #ccc; 
+      }
+      input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      vertical-align: middle;
+      color: black;
+      }
+      input:hover, textarea:hover {
+      outline: dotted;
+      border: 1px solid #095484;
+      }
+      .first-name {
+      margin-bottom: 22px;
+      }
+      span {
+      color: red;
+      }
+      th, td {
+      width: 21%;
+      padding: 15px 0;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+      vertical-align: unset;
+      line-height: 18px;
+      font-weight: 400;
+      word-break: break-all;
+      }
+      .first-col {
+      width: 16%;
+      text-align: left;
+      }
+      table {
+      width: 100%;
+      }
+      textarea {
+      width: calc(100% - 6px);
+      }
+      .btn-block {
+      margin-top: 20px;
+      text-align: center;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      -webkit-border-radius: 5px; 
+      -moz-border-radius: 5px; 
+      border-radius: 5px; 
+      background-color: #095484;
+      font-size: 16px;
+      color: black;
+      cursor: pointer;
+      }
+      button:hover {
+      background-color: #0666a3;
+      }
+      @media (min-width: 568px) {
+      th, td {
+      word-break: keep-all;
+      }
+      }
