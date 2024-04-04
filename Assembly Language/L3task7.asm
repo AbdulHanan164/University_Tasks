@@ -1,0 +1,5 @@
+org 0x100
+mov bx,0FFFFh
+and bx,6Bh
+mov ax,0x4c00
+int 0x21

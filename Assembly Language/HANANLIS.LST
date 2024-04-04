@@ -1,0 +1,8 @@
+     1                                  ;Task no 2
+     2                                  org 0x100 ;origination from inseration point 
+     3 00000000 B8004C                  mov ax,0x4c00 ;Empty Register
+     4 00000003 B80300                  mov ax,3 ;intialzing ax=3
+     5 00000006 BB0100                  mov bx,1;intializing bx=1
+     6 00000009 29D8                    sub ax,bx;subtracting both ax and bx
+     7 0000000B B8004C                  mov ax, 0x4c00; again intialize to zero
+     8 0000000E CD21                    int 0x21; interupt to terminate
